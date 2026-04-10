@@ -32,7 +32,7 @@
 
 stdenv.mkDerivation rec {
   pname = "bitwig-studio-unwrapped";
-  version = "6.0";
+  version = "6.0.3";
 
   src = fetchurl {
     name = "bitwig-studio-${version}.deb";
